@@ -7,6 +7,6 @@ lazy val root:Project= (project in file(".")).
 		scalaJSStage in Global := FastOptStage
 	).enablePlugins(ScalaJSPlugin)
 
-libraryDependencies += "org.scala-js" %%% "scalajs-dom" % "0.9.7"
+libraryDependencies += "org.scala-js" %%% "scalajs-dom" % "1.1.0"
 
 
